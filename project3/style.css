@@ -1,0 +1,112 @@
+@font-face {
+
+    font-family: 'BeatlesFont';
+    
+    src: url(BOOTLE__.TTF);
+    
+    font-weight: bold;
+  }
+
+  body{
+
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto
+  }
+
+  h1 {
+
+    font-family: 'BeatlesFont';
+  
+    font-size: 72px;
+  
+    text-align: center;
+
+    background-color: whitesmoke;
+  
+    padding: 25px;
+  }
+
+
+ 
+
+
+
+
+  .nav {
+
+    background-color: whitesmoke; 
+    
+    list-style-type: none;
+    
+    text-align: center;
+    
+    margin: -100px 0px 0px 0px;
+    
+    padding: 20px 0px 0px 0px;
+  }
+
+  
+  .nav li {
+
+    display: inline-block;
+    
+    font-family: 'BeatlesFont';
+    
+    font-size: 20px;
+
+    padding: 20px;
+  }
+
+
+.imgright{
+
+    float: right;
+
+    width:462px;
+    
+    height:310px;
+
+    margin:0px 20px 20px 20px;
+}
+
+
+
+.sep{
+    float:inherit;
+    width:100%;
+   max-height: 150px;
+}
+
+
+  p {
+    
+    
+    font-family: 'Times New Roman', 'Georgia', 'Times';
+
+    font-size: 20px;
+
+    margin: 40px;
+  }
+
+  .refhead {
+
+    background-color: whitesmoke;
+
+    font-size: 48px;
+  
+    font-family: 'Times New Roman', 'Georgia', 'Times';
+
+    text-align: center;
+
+    padding-bottom: 50px;
+
+  }
+
+  footer {
+
+    text-align: center;
+
+    font-size: 16px;
+
+  }
