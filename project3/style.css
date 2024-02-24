@@ -1,34 +1,52 @@
 @font-face {
-
     font-family: 'BeatlesFont';
-    
     src: url(BOOTLE__.TTF);
-    
     font-weight: bold;
   }
 
   body{
-
+    font-family: 'Times New Roman', 'Georgia', 'Times';
+    font-size: 20px;
+    margin: auto;
     max-width: 1200px;
     min-width: 320px;
-    margin: auto
   }
 
   h1 {
 
     font-family: 'BeatlesFont';
-  
-    font-size: 72px;
-  
+    font-size: 80px;
     text-align: center;
-
     background-color: whitesmoke;
-  
     padding: 25px;
   }
 
+  .container {
+    display: flow-root; 
+    column-gap: 5px;
+    margin: 40px;
+  }
 
- 
+  .album{
+    float: left;
+    width: 350px;
+    height: 350px;
+    margin-left: 40px;
+  }
+
+  .albumtex{
+    width: 350px;
+    height: 350px;
+    
+  }
+
+  .songlist{
+    float:left;
+    padding-left: 40px;
+  }
+
+
+
 
 
 
@@ -82,11 +100,7 @@
   p {
     
     
-    font-family: 'Times New Roman', 'Georgia', 'Times';
-
-    font-size: 20px;
-
-    margin: 40px;
+    
   }
 
   .refhead {
@@ -109,4 +123,7 @@
 
     font-size: 16px;
 
+    padding-bottom: 40px;
+
+    
   }
