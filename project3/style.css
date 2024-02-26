@@ -34,6 +34,14 @@
     margin-left: 40px;
   }
 
+  .album2{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+
   .albumtex{
     width: 350px;
     height: 350px;
@@ -45,6 +53,13 @@
     padding-left: 40px;
   }
 
+  .indent1{
+    margin-left: 40px; ;
+  }
+
+  .indent2{
+    margin-left: 80px; ;
+  }
 
   .nav {
 
@@ -64,13 +79,17 @@
   }
 
 
-  .imgright{
+  #imgright{
     float: right;
     width:462px;
     height:310px;
-    margin:0px 20px 20px 20px;
+    margin:0px 10px 20px 20px;
 }
 
+  .leftmarg{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 
   .sep{
     float:inherit;
@@ -87,6 +106,12 @@
     padding-bottom: 50px;
 
   }
+
+  .refbody{
+    font-family: 'Times New Roman', 'Georgia', 'Times';
+    font-size: 16px;
+    margin: auto;
+}
 
   footer {
     text-align: center;
