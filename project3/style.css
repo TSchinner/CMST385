@@ -5,7 +5,7 @@
   }
 
   body{
-    font-family: 'Times New Roman', 'Georgia', 'Times';
+    font-family: Verdana, Arial, sans-serif;
     font-size: 20px;
     margin: auto;
     max-width: 1200px;
@@ -13,12 +13,23 @@
   }
 
   h1 {
-
+    color:black;
     font-family: 'BeatlesFont';
     font-size: 80px;
     text-align: center;
     background-color: whitesmoke;
     padding: 25px;
+  }
+
+  h2 {
+    color:black;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 20;
+  }
+
+  p {
+    color:black;
+    font-family: Verdana, Arial, sans-serif;
   }
 
   .container {
@@ -45,12 +56,13 @@
   .albumtex{
     width: 350px;
     height: 350px;
-    
-  }
+    font-family: Verdana, Arial, sans-serif;
+   }
 
   .songlist{
     float:left;
     padding-left: 40px;
+    font-family: Verdana, Arial, sans-serif;
   }
 
   .indent1{
