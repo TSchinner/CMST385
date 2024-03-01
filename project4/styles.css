@@ -32,9 +32,8 @@ h1{
 h2{
     color:black;
     font-family:Ubuntu;
-    text-align: left;
+    text-align: center;
     font-size:55px;
-    left:0;
 }
 
 h3{
@@ -42,7 +41,11 @@ h3{
     font-family:Ubuntu;
     text-align: left;
     font-size:40px;
-    left:0;
+}
+
+h3 a{
+    text-decoration: none;
+    color:black;
 }
 
 p{
@@ -59,7 +62,7 @@ hr{
     border-top: 1px;  
     border-style: solid;
     border-color:rgb(190, 158, 118); ;
-    margin-top: 300px;
+    margin-top: 100px;
     margin-bottom: 50px;
 
 }
@@ -83,11 +86,12 @@ hr{
 
 ul {
     list-style-type: none;
+    box-sizing: border-box;
   }
 
 li a{
     text-decoration: none;
-    color:rgb(43, 72, 96);
+    color:rgb(62, 105, 139);
 
 }
  li a:hover{ 
@@ -103,13 +107,18 @@ li a{
     position: static;
     height: 100%;
     font-size:25px;
+    margin-right: 10px;
     padding-bottom: 10px;
 }
 
+.centered{
+    text-align: center;
+}
+
 .app{
-    width: 33%;
-    height: 33%;
-    margin-right: 10%;
+    width: 30%;
+    height: 30%;
+    margin-right: 5%;
     margin-top: 50px;
     float:right
 }
