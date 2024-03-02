@@ -34,7 +34,7 @@ body{
     margin: auto;
     padding-top: 10px;
     padding-bottom: 30px;
-    background-color:rgb(161, 128, 45);
+    background-color:rgb(200, 160, 107);
     max-width: 600px;
 }
 
@@ -42,7 +42,8 @@ h1{
     color:lightsteelblue; 
     font-family:Ubuntu; 
     text-align: center;
-    font-size:85px;
+    font-size:100px;
+   padding-top: 50px;
 }
 
 h2{
