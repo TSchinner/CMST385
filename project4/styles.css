@@ -9,11 +9,12 @@
 header{
     background-color: black;
     border-radius: 25px 25px 25px 25px;
+    margin: 40px;
 }
 
 
 body{
-    background-color: burlywood;
+    background-color:tan;
     font-family: Verdana, Arial, sans-serif;
     font-size: 20px;
     margin: auto;
@@ -60,7 +61,7 @@ p{
 hr{
     border-top: 1px;  
     border-style: solid;
-    border-color:rgb(190, 158, 118); 
+    border-color:rgb(64, 39, 15); 
     margin-top: 150px;
     margin-bottom: 50px;
 }
@@ -89,7 +90,7 @@ table, th, td {
   
 .horli {
     display: inline;
-    padding: 30px;
+    padding: 15px;
     color:lightsteelblue;
  }
 
@@ -112,12 +113,11 @@ li a{
     }
 
 .navi{
-    color:lightsteelblue;
+    background-color:rgb(200, 160, 107);
     width: 333px;
     text-align:left;
     list-style-type: none;
     float: right;
-    
     border-radius: 25px;
     font-size:25px;
     margin-right: 30px;
