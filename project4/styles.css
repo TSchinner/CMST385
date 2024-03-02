@@ -24,7 +24,7 @@ body{
 #wrapper {
     max-width: 1300px;
     margin: 5px auto;
-    margin: 20px;
+    margin: 0;
   }
 
 #contacts {
@@ -43,7 +43,7 @@ h1{
     font-family:Ubuntu; 
     text-align: center;
     font-size:100px;
-   padding-top: 50px;
+   padding-top: 25px;
 }
 
 h2{
@@ -81,7 +81,8 @@ p{
     font-size: 20px;
     text-align: left;
     margin: 15px;
-    padding: 5px;
+    padding-left: 80px;
+    padding-right: 10px;
 }
 
 hr{
@@ -105,6 +106,7 @@ table, th, td {
     float:right;
     height: 200px;
     width: 200px;
+    margin-right: 40px;
 }
 .horul {
     list-style-type: none;
