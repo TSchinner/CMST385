@@ -100,6 +100,7 @@ table{
 table, th, td {
     text-align: center;
     border: 1px solid;
+    max-width: 1200px
   }
 
 .logo{
@@ -172,7 +173,10 @@ li a{
     height: 20%;
     margin-right: 15px;
     margin-top: 50px;
-    
+    }
+
+.indent{
+    margin-left: 20px;
 }
 
 #footer {
